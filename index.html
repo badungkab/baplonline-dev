@@ -1562,7 +1562,7 @@ function printBAPL() {
       <!DOCTYPE html>
       <html>
       <head>
-        <title>BAPL - ${data.noPermohonan}</title>
+        <title>Berita Acara Penelitian Lapangan - ${data.namaUsaha || data.namaPerusahaan || "BAPL"}</title>
         <style>
           @page { size: A4; margin: 2cm; }
           body { font-family: 'Times New Roman', Times, serif; font-size: 11pt; margin: 0; padding: 20px; }
@@ -1602,7 +1602,7 @@ function generateBAPLHTML(d) {
       </div>
       <div style="text-align: center; margin: 20px 0;">
         <div style="font-size: 12pt; font-weight: bold; text-decoration: underline; text-transform: uppercase;">BERITA ACARA PENELITIAN LAPANGAN</div>
-        <div style="font-size: 11pt; margin-top: 5px;">NOMOR: ${d.noPermohonan}</div>
+        <div style="font-size: 11pt; margin-top: 5px;">NOMOR: 500.16.7.2/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /DISKOPUKMP</div>
       </div>
       <div style="margin: 20px 0;">
         <p>Pada hari ini ${tanggal}</p>
