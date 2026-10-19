@@ -265,54 +265,54 @@
           <p class="text-xs text-gray-600 mb-3">Format: PDF, JPG, PNG (Maks 5MB per file) - <em>Upload bersifat opsional, form tetap bisa disimpan tanpa upload</em></p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label class="block text-sm font-semibold mb-1">NIB</label>
+              <label class="block text-sm font-semibold mb-1">NIB dan Validasi PKKPL</label>
               <div class="file-upload-box" onclick="document.getElementById('fileNIB').click()">
-                <div id="fileNIBLabel">📄 Klik untuk upload NIB</div>
+                <div id="fileNIBLabel">📄 Klik untuk upload NIB & Validasi PKKPL</div>
                 <input type="file" id="fileNIB" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'pengecerNIB')"/>
               </div>
               <div class="progress-bar hidden" id="progresspengecerNIB"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="fileNIBPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">NPWP Penanggung Jawab</label>
+              <label class="block text-sm font-semibold mb-1">NPWP dan KTP/KITAS Penanggung Jawab</label>
               <div class="file-upload-box" onclick="document.getElementById('fileNPWP').click()">
-                <div id="fileNPWPLabel">📄 Klik untuk upload NPWP</div>
+                <div id="fileNPWPLabel">📄 Klik untuk upload NPWP & KTP/KITAS Penanggung Jawab</div>
                 <input type="file" id="fileNPWP" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'pengecerNPWP')"/>
               </div>
               <div class="progress-bar hidden" id="progresspengecerNPWP"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="fileNPWPPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">KTP/KITAS Penanggung Jawab</label>
+              <label class="block text-sm font-semibold mb-1">NPWP Perusahaan</label>
               <div class="file-upload-box" onclick="document.getElementById('fileKTP').click()">
-                <div id="fileKTPLabel">📄 Klik untuk upload KTP/KITAS</div>
+                <div id="fileKTPLabel">📄 Klik untuk upload NPWP Perusahaan</div>
                 <input type="file" id="fileKTP" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'pengecerKTP')"/>
               </div>
               <div class="progress-bar hidden" id="progresspengecerKTP"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="fileKTPPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">NPPBKC</label>
+              <label class="block text-sm font-semibold mb-1">NPPBKC/Surat Pernyataan Bagi Pemohon Baru</label>
               <div class="file-upload-box" onclick="document.getElementById('fileNPPBKC').click()">
-                <div id="fileNPPBKCLabel">📄 Klik untuk upload NPPBKC</div>
+                <div id="fileNPPBKCLabel">📄 Klik untuk upload NPPBKC/Surat Pernyataan Bagi Pemohon Baru</div>
                 <input type="file" id="fileNPPBKC" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'pengecerNPPBKC')"/>
               </div>
               <div class="progress-bar hidden" id="progresspengecerNPPBKC"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="fileNPPBKCPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">Pakta Integritas & Pernyataan Pengelolaan Sampah</label>
+              <label class="block text-sm font-semibold mb-1">Pakta integritas, pernyataan pengelolaan sampah, pernyataan kebenaran dokumen, sertifikat BPJS ketenagakerjaan, BPJS kesehatan dan bukti bayar terakhir</label>
               <div class="file-upload-box" onclick="document.getElementById('filePakta').click()">
-                <div id="filePaktaLabel">📄 Klik untuk upload Pakta Integritas</div>
+                <div id="filePaktaLabel">📄 Klik untuk upload Pakta integritas, pernyataan pengelolaan sampah, pernyataan kebenaran dokumen, sertifikat BPJS ketenagakerjaan, BPJS kesehatan dan bukti bayar terakhir</div>
                 <input type="file" id="filePakta" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'pengecerPakta')"/>
               </div>
               <div class="progress-bar hidden" id="progresspengecerPakta"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="filePaktaPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">Surat Penunjukan dari Distributor/Subdistributor</label>
+              <label class="block text-sm font-semibold mb-1">Surat Penunjukan dari Distributor/Subdistributor dan SKMB</label>
               <div class="file-upload-box" onclick="document.getElementById('fileSuratPenunjukan').click()">
-                <div id="fileSuratPenunjukanLabel">📄 Klik untuk upload Surat Penunjukan</div>
+                <div id="fileSuratPenunjukanLabel">📄 Klik untuk upload Surat Penunjukan dari Distributor/Subdistributor dan SKMB</div>
                 <input type="file" id="fileSuratPenunjukan" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'pengecerSuratPenunjukan')"/>
               </div>
               <div class="progress-bar hidden" id="progresspengecerSuratPenunjukan"><div class="progress-fill" style="width: 0%"></div></div>
@@ -563,52 +563,52 @@
             <div>
               <label class="block text-sm font-semibold mb-1">Sertifikat Standar/Izin</label>
               <div class="file-upload-box" onclick="document.getElementById('restoranFileSertifikat').click()">
-                <div id="restoranFileSertifikatLabel">📄 Klik untuk upload Sertifikat</div>
+                <div id="restoranFileSertifikatLabel">📄 Klik untuk upload Sertifikat/Izin</div>
                 <input type="file" id="restoranFileSertifikat" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'restoranSertifikat')"/>
               </div>
               <div class="progress-bar hidden" id="progressrestoranSertifikat"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="restoranFileSertifikatPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">NPWP Penanggung Jawab</label>
+              <label class="block text-sm font-semibold mb-1">NPWP dan KTP/Kitas Penanggung Jawab</label>
               <div class="file-upload-box" onclick="document.getElementById('restoranFileNPWP').click()">
-                <div id="restoranFileNPWPLabel">📄 Klik untuk upload NPWP</div>
+                <div id="restoranFileNPWPLabel">📄 Klik untuk upload NPWP & KTP/Kitas Penanggung Jawab</div>
                 <input type="file" id="restoranFileNPWP" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'restoranNPWP')"/>
               </div>
               <div class="progress-bar hidden" id="progressrestoranNPWP"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="restoranFileNPWPPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">KTP/KITAS Penanggung Jawab</label>
+              <label class="block text-sm font-semibold mb-1">NPWP Perusahaan</label>
               <div class="file-upload-box" onclick="document.getElementById('restoranFileKTP').click()">
-                <div id="restoranFileKTPLabel">📄 Klik untuk upload KTP/KITAS</div>
+                <div id="restoranFileKTPLabel">📄 Klik untuk upload NPWP Perusahaan</div>
                 <input type="file" id="restoranFileKTP" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'restoranKTP')"/>
               </div>
               <div class="progress-bar hidden" id="progressrestoranKTP"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="restoranFileKTPPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">NPPBKC</label>
+              <label class="block text-sm font-semibold mb-1">NPPBKC/Surat Pernyataan Bagi Pemohon Baru</label>
               <div class="file-upload-box" onclick="document.getElementById('restoranFileNPPBKC').click()">
-                <div id="restoranFileNPPBKCLabel"> Klik untuk upload NPPBKC</div>
+                <div id="restoranFileNPPBKCLabel">📄 Klik untuk upload NPPBKC/Surat Pernyataan Bagi Pemohon Baru</div>
                 <input type="file" id="restoranFileNPPBKC" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'restoranNPPBKC')"/>
               </div>
               <div class="progress-bar hidden" id="progressrestoranNPPBKC"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="restoranFileNPPBKCPreview"></div>
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-1">Pakta Integritas</label>
+              <label class="block text-sm font-semibold mb-1">Pakta integritas, Surat pernyataan Pengelolaan Sampah, Surat Pernyataan Kebenaran Dokumen, Sertifikat BPJS Ketenagakerjaan, BPJS Kesehatan dan Bukti bayar Terakhir</label>
               <div class="file-upload-box" onclick="document.getElementById('restoranFilePakta').click()">
-                <div id="restoranFilePaktaLabel"> Klik untuk upload Pakta Integritas</div>
+                <div id="restoranFilePaktaLabel"> 📄Klik untuk upload Pakta integritas, Surat pernyataan Pengelolaan Sampah, Surat Pernyataan Kebenaran Dokumen, Sertifikat BPJS Ketenagakerjaan, BPJS Kesehatan dan Bukti bayar Terakhir</div>
                 <input type="file" id="restoranFilePakta" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'restoranPakta')"/>
               </div>
               <div class="progress-bar hidden" id="progressrestoranPakta"><div class="progress-fill" style="width: 0%"></div></div>
               <div id="restoranFilePaktaPreview"></div>
             </div>
             <div class="md:col-span-2">
-              <label class="block text-sm font-semibold mb-1">Surat Penunjukan dari Distributor/Subdistributor</label>
+              <label class="block text-sm font-semibold mb-1">Surat Penunjukan dari Distributor/Subdistributor dan SKMB</label>
               <div class="file-upload-box" onclick="document.getElementById('restoranFileSuratPenunjukan').click()">
-                <div id="restoranFileSuratPenunjukanLabel">📄 Klik untuk upload Surat Penunjukan</div>
+                <div id="restoranFileSuratPenunjukanLabel">📄 Klik untuk upload Surat Penunjukan dari Distributor/Subdistributor & SKMB </div>
                 <input type="file" id="restoranFileSuratPenunjukan" accept=".pdf,.jpg,.jpeg,.png" class="hidden" onchange="handleFileSelect(this, 'restoranSuratPenunjukan')"/>
               </div>
               <div class="progress-bar hidden" id="progressrestoranSuratPenunjukan"><div class="progress-fill" style="width: 0%"></div></div>
